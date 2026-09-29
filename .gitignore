@@ -1,0 +1,17 @@
+# Arquivos institucionais e privados
+*.pdf
+*.mp4
+*.m4a
+*.wav
+*.docx
+*.pptx
+*.xlsx
+
+# Transcrições brutas/reais
+**/raw/
+**/*__raw.txt
+
+# Dados locais
+.env
+.DS_Store
+Thumbs.db
