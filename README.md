@@ -1,14 +1,154 @@
 # AI-Assisted Learning Architecture
 
-Uma arquitetura metodológica para organizar aprendizagem assistida por IA com continuidade entre sessões, governança de fontes, rastreabilidade, artefatos derivados e operação independente da ferramenta de IA utilizada.
+Uma arquitetura prática para transformar estudo disperso em um processo guiado, organizado e contínuo com apoio de IA.
 
 > **Status:** v1.0 — MVP funcional da arquitetura
 
-## O que este projeto demonstra
+## A dor que este projeto resolve
 
-Este projeto não é um repositório de uma faculdade nem um espelho de materiais acadêmicos. É a documentação pública de uma arquitetura real criada para organizar estudo de forma contínua, reproduzível e auditável.
+Estudar com IA pode ser muito poderoso, mas costuma gerar uma nova carga operacional:
 
-A ideia central é simples: **o estudante não precisa administrar manualmente o sistema enquanto estuda**. Ele assiste, lê, pergunta, debate, relaciona conceitos e decide. A camada de IA assume a gestão operacional do fluxo: classifica insumos, identifica onde cada item pertence, persiste artefatos, mantém nomenclatura, detecta lacunas, evita duplicatas e retoma o estudo do ponto correto.
+- lembrar em que ponto o estudo parou;
+- organizar prints, transcrições, resumos e arquivos;
+- decidir o que vem depois;
+- saber quando debater, resumir ou consolidar;
+- evitar perder contexto entre conversas;
+- reconstruir o histórico quando muda de IA;
+- manter uma metodologia consistente ao longo de semanas ou meses.
+
+A proposta desta arquitetura é retirar essa carga do estudante.
+
+## Ideia central
+
+**O usuário estuda. A IA gerencia o processo de estudo.**
+
+O papel do estudante é:
+
+- consumir o conteúdo;
+- compartilhar insumos;
+- fazer perguntas;
+- debater;
+- testar entendimento;
+- relacionar conceitos;
+- aprender e consolidar conhecimento.
+
+O papel da IA é atuar como **facilitadora e gestora da continuidade**:
+
+- identificar onde o estudo está;
+- entender qual é o próximo passo;
+- organizar os arquivos;
+- direcionar cada artefato para o lugar correto;
+- lembrar etapas pendentes;
+- sugerir debate, resumo, infográfico ou revisão quando chegar o momento;
+- manter nomenclatura e rastreabilidade;
+- atualizar o estado do estudo;
+- consolidar o conhecimento progressivamente.
+
+Em outras palavras, o estudante não precisa gastar energia mental administrando o método. A arquitetura faz essa gestão operacional para que ele concentre energia em aprender.
+
+## O que fica automatizado
+
+Dentro de um ambiente em que o agente tenha acesso ao repositório e às ferramentas necessárias, o fluxo pode ser conduzido assim:
+
+```text
+Você estuda e compartilha
+        ↓
+A IA identifica Disciplina → Tema → Bloco
+        ↓
+Classifica e salva os insumos
+        ↓
+Percebe o que já foi concluído
+        ↓
+Identifica o próximo passo
+        ↓
+Conduz debate e tira dúvidas
+        ↓
+Gera e persiste resumo
+        ↓
+Gera e organiza infográfico
+        ↓
+Conduz revisão auditiva
+        ↓
+Atualiza o estado
+        ↓
+Avança para a próxima etapa
+        ↓
+Consolida Tema / prepara revisão e avaliação
+```
+
+O estudante não precisa administrar manualmente a árvore de arquivos durante o estudo.
+
+## Exemplo simples de uso
+
+Você termina uma videoaula e envia ao agente:
+
+- a transcrição;
+- alguns prints que considerou importantes;
+- suas dúvidas.
+
+A partir daí, o agente:
+
+1. identifica onde aquele material pertence;
+2. persiste os arquivos;
+3. conduz o debate;
+4. verifica o que ainda falta;
+5. cria o resumo no momento correto;
+6. propõe ou gera o infográfico;
+7. conduz a revisão auditiva;
+8. registra o estado;
+9. sabe se o próximo passo é outro Bloco ou a consolidação.
+
+A continuidade não depende de você lembrar tudo nem de uma única conversa permanecer aberta.
+
+## O papel do AGENTS
+
+O `AGENTS.md` funciona como o **manual operacional da arquitetura**.
+
+Ele explica para qualquer agente de IA:
+
+- qual é a estrutura;
+- como interpretar o repositório;
+- como descobrir onde o estudo parou;
+- quais etapas são obrigatórias;
+- onde cada tipo de arquivo deve ser salvo;
+- como distinguir fonte de derivado;
+- como manter proveniência;
+- quando avançar;
+- quando consolidar;
+- como retomar o trabalho sem depender da memória da conversa anterior.
+
+Por isso a arquitetura é **multi-IA por design**: o agente pode mudar, desde que leia o protocolo e o estado persistido.
+
+## Caso real e versão pública
+
+Esta arquitetura nasceu de um **caso real de estudo pessoal**, aplicado a uma disciplina de pós-graduação e refinado durante o uso.
+
+A implementação privada contém a estrutura completa e os materiais reais de estudo.
+
+Este repositório público foi **sanitizado e adaptado** para demonstração:
+
+- materiais institucionais protegidos não são redistribuídos;
+- transcrições de aulas podem ser substituídas por placeholders;
+- capturas privadas podem ser removidas ou recriadas;
+- branding institucional é retirado dos derivados públicos quando necessário;
+- caminhos, IDs e dados privados não são expostos.
+
+O objetivo é mostrar fielmente **a arquitetura, o método, o fluxo e a capacidade de automação**, sem publicar conteúdo institucional que não pertence ao projeto.
+
+## Benefício principal
+
+A arquitetura tenta resolver uma pergunta prática:
+
+> **“Como posso estudar com IA sem transformar o próprio estudo em um trabalho de organização?”**
+
+A resposta proposta é separar responsabilidades:
+
+- **humano:** aprender, perguntar, decidir e consolidar;
+- **IA:** facilitar, organizar, lembrar, persistir e conduzir continuidade;
+- **repositório:** guardar o estado real;
+- **AGENTS:** tornar esse estado compreensível para qualquer agente.
+
+O resultado é uma metodologia em que a parte operacional fica progressivamente automatizada e o estudante permanece focado no aprendizado.
 
 ## Visão arquitetural
 
