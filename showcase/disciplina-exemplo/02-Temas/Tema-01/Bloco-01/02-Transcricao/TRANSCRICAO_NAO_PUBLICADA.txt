@@ -1,8 +1,0 @@
-[PLACEHOLDER DE ARQUITETURA]
-
-Este arquivo representa a posição da transcrição da videoaula no fluxo real.
-
-O conteúdo original não é disponibilizado publicamente por política de governança de fontes, propriedade intelectual e compliance.
-
-Fluxo:
-videoaula → transcrição → debate → resumo → infográfico → revisão auditiva
