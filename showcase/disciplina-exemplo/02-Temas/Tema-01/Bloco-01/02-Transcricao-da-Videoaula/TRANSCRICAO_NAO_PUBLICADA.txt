@@ -1,0 +1,8 @@
+[PLACEHOLDER DE ARQUITETURA]
+
+Esta posição representa a transcrição da videoaula na implementação real.
+
+O conteúdo original não é redistribuído no showcase público por política de governança de fontes, propriedade intelectual e compliance.
+
+Fluxo:
+videoaula → transcrição → debate → resumo → infográfico → revisão auditiva
