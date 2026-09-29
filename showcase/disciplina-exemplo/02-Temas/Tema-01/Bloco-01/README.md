@@ -1,4 +1,4 @@
-# Bloco — unidade operacional de estudo
+# Bloco 01 — unidade operacional de estudo
 
 Este diretório representa uma unidade completa de aprendizagem.
 
@@ -20,6 +20,4 @@ Debate humano–IA
 Atualização do estado
 ```
 
-Cada subpasta documenta **o que entra, por que existe, como usar e qual benefício entrega**.
-
-O agente deve verificar fisicamente os artefatos antes de considerar o Bloco concluído.
+Cada camada existe por uma razão específica e deve ser verificável no repositório antes de o Bloco ser considerado concluído.
