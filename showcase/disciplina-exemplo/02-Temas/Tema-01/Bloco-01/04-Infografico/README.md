@@ -1,69 +1,28 @@
 # 04 — Infográfico
 
 ## O que é
+Representação visual autoral criada **depois** do estudo, debate e resumo.
 
-Representação visual autoral do conteúdo consolidado no Bloco.
-
-O infográfico é criado **depois** da aula, dos insumos, do debate e do resumo. Ele não deve ser uma imagem decorativa nem uma cópia do slide original.
-
-## Por que usar
-
-Um bom infográfico ajuda a:
-
-- revisar rapidamente;
-- perceber relações entre conceitos;
-- visualizar sequências e processos;
-- comparar ideias;
-- memorizar estruturas;
-- identificar pontos centrais;
-- reabrir um estudo sem reler todo o material;
-- servir como gatilho para novas perguntas e revisões.
+## Para que serve
+- revisão rápida;
+- visualização de relações;
+- memorização;
+- comparação;
+- representação de ciclos e processos;
+- retomada do conteúdo sem reler tudo.
 
 ## Como gerar
-
-Fontes recomendadas:
-
 ```text
-Transcrição
-   +
-Capturas úteis
-   +
-Debate
-   +
-Resumo de fixação
-   ↓
-Infográfico
+Transcrição + Capturas + Debate + Resumo → Infográfico
 ```
 
-O estudante ou o agente pode escolher a composição que melhor represente o conteúdo: linha do tempo, fluxo, mapa de relações, comparação, ciclo, matriz ou combinação desses formatos.
+Escolha o formato visual mais adequado ao conteúdo: linha do tempo, fluxo, mapa, comparação, ciclo ou combinação.
 
-## Critérios de qualidade
-
-- leitura fácil;
-- hierarquia visual clara;
-- pouco texto por bloco;
-- fidelidade ao que foi estudado;
-- relações visíveis;
-- exemplos úteis;
-- consistência entre os Blocos;
-- valor real para revisão.
+## Critérios
+Deve ser legível, consistente, fiel ao que foi estudado e realmente útil para revisão.
 
 ## Uso posterior
+Pode alimentar novo debate, revisão auditiva e consolidação do Tema.
 
-O infográfico também pode ser usado como fonte para:
-
-- revisão rápida;
-- explicação oral;
-- novo debate;
-- podcast de estudo;
-- consolidação do Tema.
-
-## Versão privada e pública
-
-Na implementação privada, elementos de identificação institucional podem ser preservados quando úteis ao contexto de estudo.
-
-Na versão pública, remover branding ou elementos que possam fazer o derivado parecer material oficial de uma instituição.
-
-## Nomenclatura sugerida
-
-`Tema NN - Bloco NN - Infografico - <assunto>.png`
+## Público x privado
+Na versão pública, remover branding que possa sugerir material oficial institucional.
