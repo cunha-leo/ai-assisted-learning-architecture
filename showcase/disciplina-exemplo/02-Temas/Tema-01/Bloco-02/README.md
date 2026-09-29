@@ -1,25 +1,9 @@
-# Bloco — unidade operacional de estudo
+# Bloco 02 — unidade operacional de estudo
 
-Este diretório representa uma unidade completa de aprendizagem.
-
-## Sequência
+Repete a mesma cadeia metodológica do Bloco 01. A diferença é o conteúdo estudado, não a lógica operacional.
 
 ```text
-01 Capturas Oficiais
-        +
-02 Transcrição da Videoaula
-        ↓
-Debate humano–IA
-        ↓
-03 Resumo e Debate
-        ↓
-04 Infográfico
-        ↓
-05 Podcast de Estudo / Revisão Auditiva
-        ↓
-Atualização do estado
+Capturas + Transcrição → Debate → Resumo → Infográfico → Revisão auditiva → Estado atualizado
 ```
 
-Cada subpasta documenta **o que entra, por que existe, como usar e qual benefício entrega**.
-
-O agente deve verificar fisicamente os artefatos antes de considerar o Bloco concluído.
+Consulte os READMEs de cada subpasta para entender finalidade, uso, nomenclatura e benefício.
